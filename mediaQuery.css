@@ -1,0 +1,43 @@
+@media (max-width: 400px){
+	#logo{
+		width:100%;
+	}
+	#navBar{
+		width:100%;
+	}
+    .shoesList{
+        width: 100%;
+        float: bottom;
+        display: block;
+    }
+    .product{
+        width:100%;
+    }
+    .product button{
+        width: 100%;
+        margin:10px;
+    }
+}
+
+
+@media  (min-width: 401px) and (max-width: 950px){
+    #logo{
+		width:100%;
+	}
+	#navBar{
+		width:100%;
+	}
+    .shoesList{
+        width: 50%;
+        float: bottom;
+        display: block;
+    }
+    .product{
+        width:100%;
+        float:right;    
+    }
+    .product button{
+        width: 100%;
+        margin:10px;
+    }
+}
